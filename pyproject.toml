@@ -5,7 +5,11 @@ description = "Supporting materials for UoA lecture on March 23 2026"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "clustergram>=0.8.1",
+    "ipykernel>=7.2.0",
     "neatnet>=0.1.5",
+    "osmnx>=2.1.0",
+    "pyarrow>=23.0.1",
 ]
 
 [build-system]
